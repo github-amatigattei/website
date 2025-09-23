@@ -24,7 +24,7 @@ const features = [
     icon: Users,
     title: "Team Collaboration",
     description:
-      "Seamlessly collaborate with your team using shared workspaces, real-time updates, and integrated communication tools.",
+      "Collaborate with your team using shared workspaces, real-time updates, and integrated communication tools.",
   },
 ]
 
