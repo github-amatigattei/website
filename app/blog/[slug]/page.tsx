@@ -5,7 +5,13 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowLeft, Calendar, Clock, Mail } from "lucide-react"
 import Link from "next/link"
+
 import { notFound } from "next/navigation"
+
+// Add generateStaticParams for static export
+export function generateStaticParams() {
+  return Object.keys(blogPosts).map(slug => ({ slug }))
+}
 
 const blogPosts = {
   "understanding-tax-deductions-2024": {
