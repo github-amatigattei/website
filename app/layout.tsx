@@ -24,10 +24,10 @@ const geistMono = Roboto_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "CED Contabilità - 25 Anni di Esperienza Fiscale e Finanziaria",
+  title: "AG.CED srl",
   description:
-    "Servizi professionali di contabilità fiscale con 25 anni di esperienza. Consulenza esperta finanziaria e legale per privati e aziende.",
-    generator: 'v0.app'
+    "Consulenza esperta finanziaria e legale per privati e aziende.",
+    generator: ''
 }
 
 export default function RootLayout({
