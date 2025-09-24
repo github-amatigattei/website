@@ -11,9 +11,13 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center">
-            <Calculator className="h-5 w-5 text-primary-foreground" />
-          </div>
+            <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center overflow-hidden p-0">
+              <img
+                src="/AG-PRO2-4c.jpg"
+                alt="AG.CED Logo"
+                className="h-full w-full object-cover"
+              />
+            </div>
           <div>
             <span className="text-xl font-serif font-bold">AG.CED srl</span>
             <span className="text-sm text-muted-foreground ml-2">Esperti Contabili e Fiscali</span>

@@ -7,14 +7,17 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">S</span>
-              </div>
-              <span className="text-xl font-bold">StreamLine</span>
+              <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center overflow-hidden p-0">
+              <img
+                src="/AG-PRO2-4c.jpg"
+                alt="AG.CED Logo"
+                className="h-full w-full object-cover"
+              />
+            </div>
+              <span className="text-xl font-bold">AG.CED srl</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Streamline your workflow with intelligent automation. Built for teams who want to work smarter, not
-              harder.
+              Esperti fiscali e di contabilità.
             </p>
           </div>
 
@@ -98,7 +101,7 @@ export function Footer() {
         </div>
 
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-muted-foreground mb-4 md:mb-0">© 2025 StreamLine. All rights reserved.</div>
+          <div className="text-sm text-muted-foreground mb-4 md:mb-0">© 2025 AG.CED srl. Tutti i diritti sono riservati.</div>
           <div className="flex items-center space-x-4">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
               <Twitter className="h-5 w-5" />

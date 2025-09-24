@@ -33,7 +33,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-muted-foreground">ag@ced.it</p>
+                  <p className="text-muted-foreground">amatigattei@riminiservizi.com</p>
                   <p className="text-sm text-muted-foreground">Rispondiamo tipicamente entro 24 ore</p>
                 </div>
               </div>
@@ -44,8 +44,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Telefono</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground">Lunedì - Venerdì, 9:00 - 18:00</p>
+                  <p className="text-muted-foreground">0541 793072</p>
                 </div>
               </div>
 
@@ -56,7 +55,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold mb-1">Ufficio</h4>
                   <p className="text-muted-foreground">
-                    Rimini, Italia
+                    Via Ariete 18, Rimini 47923 Italia
                   </p>
                 </div>
               </div>
@@ -68,11 +67,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold mb-1">Orari di Apertura</h4>
                   <p className="text-muted-foreground">
-                    Lunedì - Venerdì: 9:00 - 18:00
-                    <br />
-                    Sabato: 10:00 - 14:00
-                    <br />
-                    Domenica: Chiuso
+                    Lunedì - Venerdì: 9:00 - 12:30
                   </p>
                 </div>
               </div>

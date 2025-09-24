@@ -6,10 +6,19 @@ export function HeroSection() {
     <section className="relative py-20 md:py-32 overflow-hidden">
       <div className="container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
+            <div className="flex justify-center mb-4">
+            <img
+              src="/AG-PRO2-4c.jpg"
+              alt="Amati Gattei Logo"
+              width={150}
+              height={150}
+              className="object-contain"
+            />
+            </div>
+            <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
             <Award className="mr-2 h-4 w-4 text-primary" />
             <span className="text-muted-foreground">Da 30 anni sul territorio Riminese • Consulenza fiscale e finanziaria esperta</span>
-          </div>
+            </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-balance mb-6">
             Studio Dottori Commercialisti<br />

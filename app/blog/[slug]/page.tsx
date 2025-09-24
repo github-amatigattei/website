@@ -632,7 +632,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                     Schedule Free Consultation
                   </Button>
                   <p className="text-sm text-muted-foreground">
-                    Contact us at <strong>ag@ced.it</strong>
+                    Contact us at <strong>amatigattei@riminiservizi.com</strong>
                   </p>
                 </div>
               </CardContent>

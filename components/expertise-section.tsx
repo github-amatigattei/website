@@ -31,18 +31,17 @@ export function ExpertiseSection() {
   ]
 
   return (
-    <section id="expertise" className="py-20 bg-muted/30">
+    <section id="expertise" className="py-20 bg-muted/30 style={{ background: 'rgba(5,49,88,0.9)' }}">
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
-            La nostra Esperienza
+            La nostra esperienza
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
-            Proven Track Record of Excellence
+            Chi siamo e cosa possiamo fare per te?
           </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
-            Our quarter-century of experience combines deep financial knowledge with comprehensive legal expertise,
-            ensuring your financial affairs are handled with the utmost professionalism.
+            
           </p>
         </div>
 
