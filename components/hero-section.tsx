@@ -8,23 +8,21 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
             <Award className="mr-2 h-4 w-4 text-primary" />
-            <span className="text-muted-foreground">Fiducia da 25 anni • Consulenza fiscale e finanziaria esperta</span>
+            <span className="text-muted-foreground">Da 30 anni sul territorio Riminese • Consulenza fiscale e finanziaria esperta</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-balance mb-6">
-            Consulenza Fiscale e Finanziaria
-            <span className="text-primary block">Esperta di cui Fidarsi</span>
+            Studio Dottori Commercialisti<br />
+            <span className="text-primary block">Amati Gattei</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground text-balance mb-8 max-w-3xl mx-auto leading-relaxed">
-            Con 25 anni di comprovata esperienza in contabilità fiscale, pianificazione finanziaria e conformità legale,
-            CED Contabilità fornisce soluzioni complete per privati e aziende che cercano una guida finanziaria
-            affidabile.
+            Esperienza trentennale nella consulenza fiscale e finanziaria alle imprese e ai privati. Esperti in Bilancio e Gestione dell'Impresa, diritto societario e Codice della Crisi di Impresa e dell'Insolvenza. 
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="text-base px-8">
-              Prenota Consulenza Gratuita
+              Prenota 1ª Consulenza Gratuita
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="text-base px-8 bg-transparent">
@@ -34,7 +32,7 @@ export function HeroSection() {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            Dottore Commercialista Abilitato • 25+ Anni di Esperienza • Consulenza Riservata
+            Dottori Commercialisti Abilitati Iscritti all'Albo  •    Consulenze a Privati e Aziende
           </div>
         </div>
       </div>

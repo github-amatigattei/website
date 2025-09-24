@@ -9,59 +9,77 @@ export function ServicesSection() {
       icon: Calculator,
       title: "Preparazione e Pianificazione Fiscale",
       description:
-        "Servizi fiscali completi per privati e aziende, inclusa la pianificazione strategica per minimizzare il carico fiscale e garantire la conformità.",
+        "Servizi fiscali per imprese e privati, inclusa la pianificazione strategica per minimizzare il carico fiscale e garantire la conformità normativa.",
       features: [
-        "Dichiarazioni Fiscali Individuali",
-        "Dichiarazioni Fiscali Aziendali",
-        "Strategie di Pianificazione Fiscale",
-        "Acconti Trimestrali",
+        "Pianificazione fiscale strategica",
+        "Assistenza agli adempimenti fiscali",
+        "Dichiarazioni fiscali per imprese e società",
+        "Gestione adempimenti IVA",
+        "Dichiarazioni fiscali per privati",
+        "Gestione dei pagamenti fiscali ordinari",
+        "Assistenza ai pagamenti fiscali arretrati"
       ],
     },
     {
       icon: Building2,
-      title: "Servizi Finanziari Aziendali",
+      title: "Servizi Finanziari per l'Avvio e la Gestione dell'Impresa",
       description:
-        "Soluzioni complete di gestione finanziaria per aziende di tutte le dimensioni, dalle startup alle società consolidate.",
-      features: ["Contabilità e Tenuta Libri", "Bilanci", "Servizi Buste Paga", "Costituzione Società"],
-    },
-    {
-      icon: PiggyBank,
-      title: "Pianificazione Finanziaria",
-      description:
-        "Strategie finanziarie a lungo termine per aiutarti a raggiungere i tuoi obiettivi finanziari personali e aziendali.",
+        "Assistenza alla costituzione e avvio di nuove imprese.",
       features: [
-        "Pianificazione Pensionistica",
-        "Consulenza Investimenti",
-        "Pianificazione Successoria",
-        "Gestione del Rischio",
+        "Costituzione società e adempimenti per l'avvio dell'attività d'impresa",
+        "Gestione scritture contabili",
+        "Gestione libri sociali",
+        "Consulenza per finanziamenti",
+        "Consulenza per investimenti",
+        "Predisposizione del bilancio di esercizio",
+        "Previsione dei costi di gestione"
       ],
-    },
-    {
-      icon: Scale,
-      title: "Conformità Legale",
-      description:
-        "Assicuriamo che i tuoi affari finanziari rispettino tutti i requisiti normativi e gli obblighi legali.",
-      features: ["Conformità Normativa", "Supporto Audit", "Documentazione Legale", "Valutazione del Rischio"],
-    },
-    {
-      icon: FileText,
-      title: "Servizi di Consulenza",
-      description:
-        "Consulenza esperta su questioni finanziarie complesse, decisioni aziendali e pianificazione strategica.",
-      features: ["Analisi Finanziaria", "Valutazione Aziendale", "Fusioni e Acquisizioni", "Pianificazione Strategica"],
     },
     {
       icon: TrendingUp,
-      title: "Consulenza per la Crescita",
+      title: "Consulenza per la Crescita dell'Impresa",
       description:
-        "Guida specializzata per aziende che desiderano espandersi, ottimizzare le operazioni o migliorare la redditività.",
+        "Consulenza per aziende che desiderano migliorare la performance e la redditività in modo equilibrato sulla base del bilancio.",
       features: [
-        "Strategie di Crescita",
-        "Gestione Flusso di Cassa",
-        "Analisi delle Performance",
-        "Espansione di Mercato",
+        "Elaborazione bilancio di previsione (budget)",
+        "Gestione del bilancio di esercizio", 
+        "Misurazione della performance economica, patrimoniale e finanziaria",
+        "Controllo degli scostamenti e interventi correttivi"
       ],
     },
+    {
+      icon: FileText,
+      title: "Assistenza alla Crisi di Impresa",
+      description:
+        "Assistenza specializzata a imprese in situazioni di crisi. Supporto nella diagnosi, pianificazione e implementazione di soluzioni per il risanamento aziendale.",
+      features: ["Diagnosi accurata delle cause della crisi ", 
+        "Proposta di soluzioni strategiche e operative", 
+        "Supporto nella ristrutturazione del debito e nella riorganizzazione aziendale", 
+        "Verifica degli adeguati assetti organizzativi, amministrativi e contabili"],
+    },
+    {
+      icon: Scale,
+      title: "Assistenza alla Ristrutturazione del Debito e alle Procedure di Sovraindebitamento",
+      description:
+        "Assistenza nella gestione dei debiti di piccole aziende e privati che affrontano difficoltà finanziarie.",
+      features: ["Analisi dettagliata della situazione debitoria", 
+        "Pianificazione di strategie per la ristrutturazione del debito", 
+        "Sviluppo di piani di risanamento finanziario",
+        "Negoziazione con i creditori", 
+        "Supporto nelle procedure legali di sovraindebitamento"],
+    },
+    {
+      icon: PiggyBank,
+      title: "Pianificazione Patrimoniale e Finanziaria",
+      description:
+        "Consulenza alla gestione del patrimonio e pianificazione finanziaria per privati e famiglie.",
+      features: [
+        "Consulenza per la strategia pensionistica",
+        "Gestione del patrimonio personale o familiare",
+        "Pianificazione successoria",
+        "Consulenza sugli investimenti"
+      ],
+    }
   ]
 
   return (

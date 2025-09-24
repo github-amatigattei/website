@@ -6,27 +6,27 @@ export function ExpertiseSection() {
   const stats = [
     {
       icon: Calendar,
-      number: "25+",
-      label: "Years of Experience",
-      description: "Serving clients since 1999",
+      number: "30",
+      label: "Anni di Esperienza",
+      description: "A servizio dei clienti dal 1995",
     },
     {
       icon: Users,
-      number: "500+",
-      label: "Satisfied Clients",
-      description: "Individuals and businesses",
-    },
+      number: "3+",
+      label: "Dottori Commercialisti",
+      description: "Iscritti all'Albo Professionale",
+      },
     {
-      icon: TrendingUp,
-      number: "$50M+",
-      label: "Tax Savings Generated",
-      description: "Through strategic planning",
+      icon: Users,
+      number: "2+",
+      label: "Collaboratori Esperti",
+      description: "In Materia Contabile e Fiscale",
     },
     {
       icon: Shield,
-      number: "100%",
-      label: "Compliance Rate",
-      description: "Zero audit penalties",
+      number: "500+",
+      label: "Clienti Serviti",
+      description: "Aziende e Privati",
     },
   ]
 
@@ -35,7 +35,7 @@ export function ExpertiseSection() {
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
-            Our Expertise
+            La nostra Esperienza
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
             Proven Track Record of Excellence
@@ -61,23 +61,29 @@ export function ExpertiseSection() {
           ))}
         </div>
 
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Financial Expertise</h3>
+            <h3 className="text-xl font-serif font-semibold mb-3">Consulenza alla Gestione dell'Impresa</h3>
             <p className="text-muted-foreground">
-              Comprehensive tax planning, preparation, and strategic financial guidance for optimal outcomes.
+              Assistenza alla gestione dell'impresa sulla base dei dati di bilancio per ottimizzare la performance aziendale e la crescita sostenibile.
             </p>
           </div>
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Legal Knowledge</h3>
+            <h3 className="text-xl font-serif font-semibold mb-3">Consulenza giuridico-economica</h3>
             <p className="text-muted-foreground">
-              Deep understanding of tax law, regulatory compliance, and legal implications of financial decisions.
+              Assistenza sulle normative di bilancio e societarie.
             </p>
           </div>
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Personalized Service</h3>
+            <h3 className="text-xl font-serif font-semibold mb-3">Assistenza Fiscale e Finanziaria</h3>
             <p className="text-muted-foreground">
-              Tailored solutions that address your unique financial situation and long-term objectives.
+              Consulenza finanziaria e pianificazione fiscale strategica commisurata alle esigenze del cliente.
+            </p>
+          </div>
+          <div className="text-center">
+            <h3 className="text-xl font-serif font-semibold mb-3">Dichiarazioni fiscali</h3>
+            <p className="text-muted-foreground">
+              Adempimenti fiscali per aziende e privati, dichiarazioni dei redditi, IVA, IMU e altre imposte.
             </p>
           </div>
         </div>

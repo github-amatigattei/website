@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Lato, Geist_Mono } from "next/font/google"
+import { Lato, Roboto_Mono } from "next/font/google"
 import "./globals.css"
 
 const lato = Lato({
@@ -17,7 +17,7 @@ const latoSerif = Lato({
   display: "swap",
 })
 
-const geistMono = Geist_Mono({
+const geistMono = Roboto_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
   display: "swap",
@@ -37,7 +37,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it" className={`${lato.variable} ${latoSerif.variable} ${geistMono.variable} antialiased`}>
-      <body>{children}</body>
+      <body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', width: '100vw' }}>
+        {children}
+      </body>
     </html>
   )
 }

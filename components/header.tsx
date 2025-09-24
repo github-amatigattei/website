@@ -15,8 +15,8 @@ export function Header() {
             <Calculator className="h-5 w-5 text-primary-foreground" />
           </div>
           <div>
-            <span className="text-xl font-serif font-bold">CED</span>
-            <span className="text-sm text-muted-foreground ml-2">Contabilità</span>
+            <span className="text-xl font-serif font-bold">AG.CED srl</span>
+            <span className="text-sm text-muted-foreground ml-2">Esperti Contabili e Fiscali</span>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ export function Header() {
             Competenze
           </a>
           <a href="#blog" className="text-sm font-medium hover:text-primary transition-colors">
-            Centro Conoscenze
+            Approfondimenti
           </a>
           <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
             Chi Siamo
@@ -60,7 +60,7 @@ export function Header() {
               Competenze
             </a>
             <a href="#blog" className="block text-sm font-medium hover:text-primary transition-colors">
-              Centro Conoscenze
+              Approfondimenti
             </a>
             <a href="#about" className="block text-sm font-medium hover:text-primary transition-colors">
               Chi Siamo

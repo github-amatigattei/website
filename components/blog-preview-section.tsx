@@ -43,10 +43,10 @@ export function BlogPreviewSection() {
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
-            Centro Conoscenze
+            Approfondimenti
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
-            Approfondimenti Esperti ed Educazione Finanziaria
+            Approfondimenti e Educazione Finanziaria
           </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
             Rimani informato con i nostri ultimi articoli su strategie fiscali, pianificazione finanziaria e conformità
