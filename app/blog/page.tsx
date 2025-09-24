@@ -87,7 +87,7 @@ export default function BlogPage() {
         <section className="py-20 bg-muted/30">
           <div className="container">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-serif font-bold text-balance mb-4">Financial Knowledge Hub</h1>
+              <h1 className="text-4xl md:text-5xl font-serif font-bold text-balance mb-4">Esplora il mondo della Finanza e del Fisco</h1>
               <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto mb-8">
                 Expert insights, practical advice, and educational content to help you make informed financial
                 decisions.

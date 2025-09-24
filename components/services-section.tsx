@@ -128,11 +128,13 @@ export function ServicesSection() {
 
         <div className="text-center mt-12">
           <Button size="lg" className="px-8">
+            <a href="#contact" className="flex items-center">
             Prenota la Tua Consulenza Gratuita
             <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
           </Button>
           <p className="text-sm text-muted-foreground mt-3">
-            Discuti le tue esigenze specifiche con il nostro team esperto
+            Discuti le tue esigenze specifiche con il nostro team
           </p>
         </div>
       </div>

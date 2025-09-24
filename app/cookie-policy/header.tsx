@@ -18,8 +18,10 @@ export function Header() {
                 className="h-full w-full object-cover"
               />
             </div>
-          <div>
-            <span className="text-xl font-serif font-bold">AG.CED srl</span>
+            <div>
+            <a href="" className="text-xl font-serif font-bold">
+            AG.CED srl
+            </a>
             <span className="text-sm text-muted-foreground ml-2">Esperti Contabili e Fiscali</span>
           </div>
         </div>

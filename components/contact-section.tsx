@@ -78,7 +78,7 @@ export function ContactSection() {
                 <h4 className="font-semibold mb-2">Consulenza Iniziale Gratuita</h4>
                 <p className="text-sm text-muted-foreground">
                   Offriamo una consulenza gratuita di 30 minuti per discutere le tue esigenze finanziarie e come i
-                  nostri 25 anni di esperienza possono beneficiarti. Nessun obbligo, solo consulenza professionale.
+                  nostri 25 anni di esperienza possono beneficiarti.
                 </p>
               </CardContent>
             </Card>

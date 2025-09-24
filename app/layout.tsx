@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Lato, Roboto_Mono } from "next/font/google"
 import "./globals.css"
+import { CookieConsentManager } from "@/components/cookie-consent-manager"
 
 const lato = Lato({
   subsets: ["latin"],
@@ -39,7 +40,10 @@ export default function RootLayout({
     <html lang="it" className={`${lato.variable} ${latoSerif.variable} ${geistMono.variable} antialiased`}>
       <body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', width: '100vw' }}>
         {children}
+        <CookieConsentManager />
       </body>
     </html>
   )
 }
+
+

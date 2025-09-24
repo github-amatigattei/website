@@ -50,7 +50,7 @@ export function BlogPreviewSection() {
           </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
             Rimani informato con i nostri ultimi articoli su strategie fiscali, pianificazione finanziaria e conformità
-            legale. La conoscenza è potere quando si tratta del tuo futuro finanziario.
+            legale. 
           </p>
         </div>
 

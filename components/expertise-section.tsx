@@ -31,7 +31,11 @@ export function ExpertiseSection() {
   ]
 
   return (
-    <section id="expertise" className="py-20 bg-muted/30 style={{ background: 'rgba(5,49,88,0.9)' }}">
+    <section
+      id="expertise"
+      className="py-10 px-10 bg-muted/30"
+      style={{ background: "rgba(5,49,88,0.1)" }}
+    >
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">

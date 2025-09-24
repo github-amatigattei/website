@@ -10,8 +10,8 @@ export function HeroSection() {
             <img
               src="/AG-PRO2-4c.jpg"
               alt="Amati Gattei Logo"
-              width={150}
-              height={150}
+              width={200}
+              height={200}
               className="object-contain"
             />
             </div>
@@ -35,8 +35,10 @@ export function HeroSection() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="text-base px-8 bg-transparent">
+              <a href="#services" className="flex items-center">
               <Shield className="mr-2 h-4 w-4" />
               Visualizza i Nostri Servizi
+              </a>
             </Button>
           </div>
 
