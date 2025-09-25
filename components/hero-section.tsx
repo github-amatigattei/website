@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-4">
             <img
-              src="public/AG-PRO2-4c.png"
+              src="/website/AG-PRO2-4c.png"
               alt="Amati Gattei Logo"
               width={225}
               height={225}

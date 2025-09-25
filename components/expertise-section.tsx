@@ -19,8 +19,8 @@ export function ExpertiseSection() {
     {
       icon: Users,
       number: "2+",
-      label: "Collaboratori Esperti",
-      description: "In Materia Contabile e Fiscale",
+      label: "Competenze Specialistiche",
+      description: "In Materia Contabile, Fiscale, Amministrativa e Societaria, Contributiva",
     },
     {
       icon: Shield,
