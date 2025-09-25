@@ -39,22 +39,22 @@ export function BlogPreviewSection() {
   ]
 
   return (
-    <section id="blog" className="py-20 bg-muted/30">
+    <section id="blog" className="py-10 bg-muted/30 rounded-lg my-5" style={{ background: "rgba(6, 44, 77, 1)"}}>
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
+          <Badge variant="outline" className="mb-4" style={{ background: "rgba(243, 246, 248, 1)", color: "rgba(2, 28, 52, 1)" }}>
             Approfondimenti
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4" style={{ color: "rgba(246, 130, 31, 1)" }}>
             Approfondimenti e Educazione Finanziaria
           </h2>
-          <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto" style={{ color: "rgba(243, 246, 248, 1)"}}>
             Rimani informato con i nostri ultimi articoli su strategie fiscali, pianificazione finanziaria e conformità
             legale. 
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 justify-center place-items-stretch">
           {blogPosts.map((post, index) => (
             <Card
               key={index}
@@ -100,7 +100,7 @@ export function BlogPreviewSection() {
 
         <div className="text-center">
           <Link href="/blog">
-            <Button variant="outline" size="lg" className="px-8 bg-transparent">
+            <Button variant="outline" size="lg" className="px-8 bg-transparent" style={{ background: "rgba(243, 246, 248, 1)", color: "rgba(2, 28, 52, 1)" }}>
               <BookOpen className="mr-2 h-4 w-4" />
               Visualizza Tutti gli Articoli
             </Button>

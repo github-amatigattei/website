@@ -33,15 +33,15 @@ export function ExpertiseSection() {
   return (
     <section
       id="expertise"
-      className="py-10 px-10 bg-muted/30"
-      style={{ background: "rgba(5,49,88,0.1)" }}
+      className="py-12 px-10 bg-muted/30 rounded-lg my-5"
+      style={{ background: "rgba(5, 49, 88, 1)" }}
     >
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
+          <Badge variant="outline" className="mb-4" style={{ background: "rgba(243, 246, 248, 1)" }}>
             La nostra esperienza
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4" style={{ color: "rgba(246, 130, 31, 1)" }}>
             Chi siamo e cosa possiamo fare per te?
           </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
@@ -51,10 +51,10 @@ export function ExpertiseSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
-            <Card key={index} className="text-center border-0 shadow-sm bg-background/50">
+            <Card key={index} className="text-center border-0 shadow-sm bg-background/50"style={{ background: "rgba(238, 242, 246, 0.8)" }}>
               <CardContent className="pt-8 pb-6">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
-                  <stat.icon className="h-6 w-6 text-primary" />
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4" style={{ background: "rgba(243, 246, 248, 1)" }}>
+                  <stat.icon className="h-6 w-6 text-primary" color="#053158"/>
                 </div>
                 <div className="text-3xl font-serif font-bold text-primary mb-2">{stat.number}</div>
                 <div className="font-semibold mb-1">{stat.label}</div>
@@ -66,26 +66,26 @@ export function ExpertiseSection() {
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Consulenza alla Gestione dell'Impresa</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-serif font-semibold mb-3" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza alla Gestione dell'Impresa</h3>
+            <p className="text-muted-foreground" style={{ color: "rgba(244, 244, 248, 0.8)" }}>
               Assistenza alla gestione dell'impresa sulla base dei dati di bilancio per ottimizzare la performance aziendale e la crescita sostenibile.
             </p>
           </div>
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Consulenza giuridico-economica</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-serif font-semibold mb-3" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza giuridico-economica</h3>
+            <p className="text-muted-foreground" style={{ color: "rgba(244, 244, 248, 0.8)" }}>
               Assistenza sulle normative di bilancio e societarie.
             </p>
           </div>
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Assistenza Fiscale e Finanziaria</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-serif font-semibold mb-3" style={{ color: "rgba(246, 130, 31, 1)" }}>Assistenza Fiscale e Finanziaria</h3>
+            <p className="text-muted-foreground" style={{ color: "rgba(244, 244, 248, 0.8)" }}>
               Consulenza finanziaria e pianificazione fiscale strategica commisurata alle esigenze del cliente.
             </p>
           </div>
           <div className="text-center">
-            <h3 className="text-xl font-serif font-semibold mb-3">Dichiarazioni fiscali</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-serif font-semibold mb-3" style={{ color: "rgba(246, 130, 31, 1)" }}>Dichiarazioni fiscali</h3>
+            <p className="text-muted-foreground" style={{ color: "rgba(244, 244, 248, 0.8)" }}>
               Adempimenti fiscali per aziende e privati, dichiarazioni dei redditi, IVA, IMU e altre imposte.
             </p>
           </div>

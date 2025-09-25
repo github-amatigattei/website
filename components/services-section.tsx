@@ -86,7 +86,7 @@ export function ServicesSection() {
     <section id="services" className="py-20">
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
+          <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
             I Nostri Servizi
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
@@ -100,34 +100,37 @@ export function ServicesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="border-0 shadow-sm hover:shadow-md transition-shadow">
+            <Card
+              key={index}
+              className="shadow-sm hover:shadow-[0_8px_32px_0_rgba(6,44,77,1)] transition-all hover:-translate-y-2 border-0"
+            >
               <CardHeader>
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
-                  <service.icon className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle className="text-xl font-serif">{service.title}</CardTitle>
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                <service.icon className="h-6 w-6 text-primary"/>
+              </div>
+              <CardTitle className="text-xl font-serif">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">{service.description}</p>
-                <ul className="space-y-2 mb-6">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="text-sm flex items-center">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary mr-3 flex-shrink-0" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button variant="ghost" className="w-full justify-between p-0 h-auto font-medium">
-                  Scopri di Più
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
+              <p className="text-muted-foreground mb-4">{service.description}</p>
+              <ul className="space-y-2 mb-6">
+                {service.features.map((feature, featureIndex) => (
+                <li key={featureIndex} className="text-sm flex items-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary mr-3 flex-shrink-0" />
+                  {feature}
+                </li>
+                ))}
+              </ul>
+              {/* <Button variant="ghost" className="w-full justify-between p-0 h-auto font-medium">
+                Scopri di Più
+                <ArrowRight className="h-4 w-4" />
+              </Button> */}
               </CardContent>
             </Card>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="px-8">
+          <Button size="lg" className="px-8" style={{ background: "rgba(6, 44, 77, 1)" }}>
             <a href="#contact" className="flex items-center">
             Prenota la Tua Consulenza Gratuita
             <ArrowRight className="ml-2 h-4 w-4" />

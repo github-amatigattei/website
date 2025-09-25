@@ -11,7 +11,7 @@ export function ContactSection() {
     <section id="contact" className="py-20">
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
+          <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
             Contattaci
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4">
@@ -27,9 +27,9 @@ export function ContactSection() {
           <div>
             <h3 className="text-2xl font-serif font-semibold mb-6">Mettiti in Contatto</h3>
             <div className="space-y-6 mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Mail className="h-5 w-5 text-primary" />
+              <div className="flex items-start space-x-4" >
+                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
+                  <Mail className="h-5 w-5" color="white" />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
@@ -39,8 +39,8 @@ export function ContactSection() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Phone className="h-5 w-5 text-primary" />
+                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
+                  <Phone className="h-5 w-5 text-primary" color="white"/>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Telefono</h4>
@@ -49,8 +49,8 @@ export function ContactSection() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <MapPin className="h-5 w-5 text-primary" />
+                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
+                  <MapPin className="h-5 w-5 text-primary" color="white"/>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Ufficio</h4>
@@ -61,8 +61,8 @@ export function ContactSection() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Clock className="h-5 w-5 text-primary" />
+                <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
+                  <Clock className="h-5 w-5 text-primary" color="white"/>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Orari di Apertura</h4>
@@ -73,12 +73,11 @@ export function ContactSection() {
               </div>
             </div>
 
-            <Card className="bg-primary/5 border-primary/20">
+            <Card className="bg-primary/5 border-primary/20" style={{ background: "rgba(5, 49, 88, 1)" }}>
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-2">Consulenza Iniziale Gratuita</h4>
-                <p className="text-sm text-muted-foreground">
-                  Offriamo una consulenza gratuita di 30 minuti per discutere le tue esigenze finanziarie e come i
-                  nostri 25 anni di esperienza possono beneficiarti.
+                <h4 className="font-semibold mb-2" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza Iniziale Gratuita</h4>
+                <p className="text-sm text-muted-foreground" style={{ color: "rgba(243, 246, 248, 1)" }}>
+                  Offriamo una consulenza gratuita di 30 minuti per discutere le tue esigenze finanziarie e come possiamo aiutarti.
                 </p>
               </CardContent>
             </Card>
@@ -103,12 +102,12 @@ export function ContactSection() {
 
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="mario@esempio.it" />
+                  <Input id="email" type="email" placeholder="mariorossi@libero.it" />
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="phone">Telefono (Opzionale)</Label>
-                  <Input id="phone" type="tel" placeholder="+39 123 456 7890" />
+                  <Input id="phone" type="tel" placeholder="" />
                 </div>
 
                 <div className="space-y-2">
@@ -119,11 +118,11 @@ export function ContactSection() {
                   >
                     <option value="">Seleziona un servizio</option>
                     <option value="tax-preparation">Preparazione e Pianificazione Fiscale</option>
-                    <option value="business-finance">Servizi Finanziari Aziendali</option>
-                    <option value="financial-planning">Pianificazione Finanziaria</option>
-                    <option value="legal-compliance">Conformità Legale</option>
-                    <option value="consulting">Servizi di Consulenza</option>
-                    <option value="growth-advisory">Consulenza per la Crescita</option>
+                    <option value="business-finance">Servizi Finanziari per l'Avvio e la Gestione dell'Impresa</option>
+                    <option value="financial-planning">Consulenza per la Crescita dell'Impresa</option>
+                    <option value="legal-compliance">Assistenza alla Crisi di Impresa</option>
+                    <option value="consulting">Assistenza alla Ristrutturazione del Debito e alle Procedure di Sovraindebitamento</option>
+                    <option value="growth-advisory">Pianificazione Patrimoniale e Finanziaria</option>
                   </select>
                 </div>
 
@@ -136,7 +135,7 @@ export function ContactSection() {
                   />
                 </div>
 
-                <Button type="submit" className="w-full" size="lg">
+                <Button type="submit" className="w-full" size="lg" style={{ background: "rgba(5, 49, 88, 1)" }}>
                   <Send className="mr-2 h-4 w-4" />
                   Invia Messaggio
                 </Button>

@@ -2,9 +2,9 @@ import { Facebook, Twitter, Linkedin, Github } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-muted/30 py-16">
+    <footer className="bg-muted/30 py-16 rounded-lg ">
       <div className="container">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center overflow-hidden p-0">
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
 
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-muted-foreground mb-4 md:mb-0">© 2025 AG.CED srl. Tutti i diritti sono riservati.</div>
+          <div className="text-sm text-muted-foreground mb-4 md:mb-0" style={{ color: "rgba(113, 114, 114, 1)" }}>© 2025 AG.CED srl. Tutti i diritti sono riservati.</div>
         </div>
       </div>
     </footer>

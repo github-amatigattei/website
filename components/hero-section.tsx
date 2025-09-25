@@ -3,15 +3,15 @@ import { ArrowRight, Shield, Award } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden">
+    <section className="relative py-10 md:py-32 overflow-hidden">
       <div className="container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-4">
             <img
               src="/AG-PRO2-4c.jpg"
               alt="Amati Gattei Logo"
-              width={200}
-              height={200}
+              width={225}
+              height={225}
               className="object-contain"
             />
             </div>
@@ -33,13 +33,15 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button size="lg" className="text-base px-8">
-              Prenota 1ª Consulenza Gratuita
-              <ArrowRight className="ml-2 h-4 w-4" />
+            <Button size="lg" className="text-base px-8" style={{ background: "rgba(5, 49, 88, 1)" }}>
+              <a href="#contact" className="flex items-center">
+                Prenota 1ª Consulenza Gratuita
+                <ArrowRight className="ml-2 h-4 w-4" /> 
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="text-base px-8 bg-transparent">
               <a href="#services" className="flex items-center">
-              <Shield className="mr-2 h-4 w-4" />
+              <Shield className="mr-2 h-4 w-4"/>
               Visualizza i Nostri Servizi
               </a>
             </Button>

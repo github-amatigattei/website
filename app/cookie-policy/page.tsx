@@ -30,8 +30,8 @@ export default function CookiePolicyPage() {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="container mx-auto px-4 py-16 max-w-4xl">
-        <div className="space-y-8">
+      <main className="container mx-auto px-8 py-16 max-w-4xl">
+        <div className="space-y-2">
           {/* Header */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold text-primary">Cookie Policy</h1>

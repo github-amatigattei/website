@@ -24,7 +24,7 @@ export function Header() {
           </div>
         </div>
 
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           <a href="#expertise" className="text-sm font-medium hover:text-primary transition-colors">
             Chi Siamo
           </a>
@@ -38,9 +38,14 @@ export function Header() {
             Contatti
           </a>
         </nav>
+  
 
         <div className="hidden md:flex items-center space-x-4">
-          <Button size="sm">Consulenza Gratuita</Button>
+          <a href="#contact" className="flex items-center">
+            <Button size="sm" style={{ background: "rgba(6, 44, 77, 1)" }}>
+              Consulenza Gratuita
+            </Button>
+          </a>
         </div>
 
         <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
