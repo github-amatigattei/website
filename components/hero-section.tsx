@@ -16,14 +16,17 @@ export function HeroSection() {
             />
             </div>
             <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
-            <Award className="mr-2 h-4 w-4 text-primary" />
+            {/* <Award className="mr-2 h-4 w-4 text-primary" /> */}
             <span className="text-muted-foreground">Da 30 anni sul territorio Riminese • Consulenza fiscale e finanziaria esperta</span>
             </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-balance mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif tracking-tight text-balance mb-6">
             Studio Dottori Commercialisti<br />
             <span className="text-primary block">Amati Gattei</span>
           </h1>
+          <h2 className="text-4xl md:text-4xl lg:text-4xl font-serif tracking-tight text-balance mb-2">
+            Revisori Legali
+          </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground text-balance mb-8 max-w-3xl mx-auto leading-relaxed">
             Esperienza trentennale nella consulenza fiscale e finanziaria alle imprese e ai privati. Esperti in Bilancio e Gestione dell'Impresa, diritto societario e Codice della Crisi di Impresa e dell'Insolvenza. 
@@ -42,8 +45,8 @@ export function HeroSection() {
             </Button>
           </div>
 
-          <div className="text-sm text-muted-foreground">
-            Dottori Commercialisti Abilitati Iscritti all'Albo  •    Consulenze a Privati e Aziende
+          <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
+            <span className="text-muted-foreground">Dottori Commercialisti Abilitati Iscritti all'Albo  •    Consulenze a Privati e Aziende</span>
           </div>
         </div>
       </div>
