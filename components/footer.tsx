@@ -9,7 +9,7 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center overflow-hidden p-0">
               <img
-                src="/AG-PRO2-4c.jpg"
+                src="public/AG-PRO2-4c.png"
                 alt="AG.CED Logo"
                 className="h-full w-full object-cover"
               />
