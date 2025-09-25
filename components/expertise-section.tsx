@@ -18,9 +18,9 @@ export function ExpertiseSection() {
       },
     {
       icon: Users,
-      number: "2+",
+      number: "10+",
       label: "Competenze Specialistiche",
-      description: "In Materia Contabile, Fiscale, Amministrativa e Societaria, Contributiva",
+      description: "In Materia di Contabilità, Bilancio, controllo di gestione, Revisione Legale, Fisco, Società, Contratti, perizie di stima, Crisi d'Impresa, Procedure di Sovraindebitamento, Successioni Ereditarie",
     },
     {
       icon: Shield,

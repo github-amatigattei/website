@@ -14,7 +14,7 @@ export function BlogPreviewSection() {
       category: "Pianificazione Fiscale",
       readTime: "8 min di lettura",
       publishDate: "15 Marzo 2024",
-      image: "/tax-documents-and-calculator-on-desk.jpg",
+      image: "/website/tax-documents-and-calculator-on-desk.jpg",
     },
     {
       slug: "small-business-financial-planning",
@@ -24,7 +24,7 @@ export function BlogPreviewSection() {
       category: "Finanza Aziendale",
       readTime: "6 min di lettura",
       publishDate: "10 Marzo 2024",
-      image: "/small-business-owner-reviewing-financial-charts.jpg",
+      image: "/website/small-business-owner-reviewing-financial-charts.jpg",
     },
     {
       slug: "estate-planning-basics",
@@ -34,7 +34,7 @@ export function BlogPreviewSection() {
       category: "Legale e Successorio",
       readTime: "10 min di lettura",
       publishDate: "5 Marzo 2024",
-      image: "/family-documents-and-legal-papers.jpg",
+      image: "/website/family-documents-and-legal-papers.jpg",
     },
   ]
 
