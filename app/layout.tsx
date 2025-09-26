@@ -38,8 +38,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it" className={`${lato.variable} ${latoSerif.variable} ${geistMono.variable} antialiased`}>
-      <body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', width: '100vw' }}>
-        {children}
+      <body style={{ minHeight: '100vh' }}>
+        <div style={{ width: '100%', maxWidth: 1300, margin: '0 auto', paddingLeft: 30, paddingRight: 30}}>
+          {children}
+        </div>
         <CookieConsentManager />
       </body>
     </html>
