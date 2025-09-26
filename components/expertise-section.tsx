@@ -20,7 +20,7 @@ export function ExpertiseSection() {
       icon: Users,
       number: "10+",
       label: "Competenze Specialistiche",
-      description: "In Materia di Contabilità, Bilancio, controllo di gestione, Revisione Legale, Fisco, Società, Contratti, perizie di stima, Crisi d'Impresa, Procedure di Sovraindebitamento, Successioni Ereditarie",
+      description: "In Materia di Contabilità, Bilancio, Controllo di Gestione, Revisione Legale, Fisco, Società, Contratti, Perizie di Stima, Crisi d'Impresa, Procedure di Sovraindebitamento, Successioni Ereditarie",
     },
     {
       icon: Shield,
@@ -42,7 +42,7 @@ export function ExpertiseSection() {
             La nostra esperienza
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4" style={{ color: "rgba(246, 130, 31, 1)" }}>
-            Chi siamo e cosa possiamo fare per te?
+            Chi siamo e cosa possiamo fare per te
           </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
             
@@ -51,7 +51,7 @@ export function ExpertiseSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
-            <Card key={index} className="text-center border-0 shadow-sm bg-background/50"style={{ background: "rgba(238, 242, 246, 0.8)" }}>
+            <Card key={index} className="text-center shadow-sm bg-background/50 shadow-sm hover:shadow-[0_8px_32px_0_rgba(6,44,77,1)] transition-all hover:-translate-y-1 border-0"style={{ background: "rgba(238, 242, 246, 0.8)" }}>
               <CardContent className="pt-8 pb-6">
                 <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4" style={{ background: "rgba(243, 246, 248, 1)" }}>
                   <stat.icon className="h-6 w-6 text-primary" color="#053158"/>

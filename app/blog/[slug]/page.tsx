@@ -14,60 +14,25 @@ export function generateStaticParams() {
 }
 
 const blogPosts = {
-  "understanding-tax-deductions-2024": {
-    title: "Understanding Tax Deductions: A Complete Guide for 2024",
-    category: "Tax Planning",
-    readTime: "8 min read",
-    publishDate: "March 15, 2024",
+  "ridurre-il-carico-fiscale-senza-rischi": {
+    title: "Come ridurre il carico fiscale senza rischi: la pianificazione strategica che fa la differenza",
+    category: "Pianificazione Fiscale",
+    readTime: "Lettura: 8 min",
+    publishDate: "26 Settembre 2025",
     image: "/tax-documents-and-calculator-on-desk.jpg",
     content: `
-      <p>Tax deductions can significantly reduce your taxable income and save you money, but navigating the complex world of deductions requires careful planning and expert knowledge. In this comprehensive guide, we'll explore the most valuable deductions available in 2024 and how to maximize your tax savings.</p>
+      <p>La pianificazione fiscale strategica consiste nell’insieme delle attività volte a ottimizzare l’impatto delle imposte sul risultato economico e finanziario dell’impresa o del privato, nel pieno rispetto della normativa vigente.</p><br />
 
-      <h2>Standard vs. Itemized Deductions</h2>
-      <p>The first decision you'll face is whether to take the standard deduction or itemize your deductions. For 2024, the standard deduction amounts are:</p>
+      <h2>Le fasi principali sono:</h2>
+      <p></p><br />
       <ul>
-        <li>Single filers: $14,600</li>
-        <li>Married filing jointly: $29,200</li>
-        <li>Head of household: $21,900</li>
+        <li><strong>Analisi preventiva del bilancio e delle scritture contabili </strong> per identificare la base imponibile e i margini di intervento.</li> <br />
+        <li><strong>Individuazione di regimi fiscali agevolati o alternativi </strong>(es. regimi forfettari, strumenti di tassazione sostitutiva, incentivi fiscali per investimenti in ricerca e sviluppo, transizione ecologica, beni strumentali).</li><br />
+        <li><strong>Ottimizzazione della struttura societaria e contrattuale</strong> per una più efficiente allocazione dei redditi (holding, conferimenti, trasformazioni).</li> <br />
+        <li><strong>Gestione delle tempistiche di realizzo dei componenti reddituali</strong> per differire o anticipare imponibili secondo convenienza.</li><br />
+        <li><strong>Valutazione del carico contributivo congiunto alle imposte</strong>, per ottenere una visione complessiva.</li> <br />
       </ul>
-
-      <h2>Common Business Deductions</h2>
-      <p>If you're self-employed or own a business, you have access to numerous deductions that can substantially reduce your tax liability:</p>
-      <ul>
-        <li><strong>Home Office Deduction:</strong> If you use part of your home exclusively for business, you may deduct related expenses.</li>
-        <li><strong>Business Equipment:</strong> Computers, furniture, and other equipment used for business purposes.</li>
-        <li><strong>Professional Development:</strong> Training, conferences, and educational materials related to your business.</li>
-        <li><strong>Business Travel:</strong> Transportation, lodging, and meal expenses for business trips.</li>
-      </ul>
-
-      <h2>Personal Deductions to Consider</h2>
-      <p>Even if you're not self-employed, there are several personal deductions that might benefit you:</p>
-      <ul>
-        <li><strong>Charitable Contributions:</strong> Donations to qualified charitable organizations</li>
-        <li><strong>Medical Expenses:</strong> Unreimbursed medical expenses exceeding 7.5% of your AGI</li>
-        <li><strong>State and Local Taxes:</strong> Up to $10,000 in state and local tax payments</li>
-        <li><strong>Mortgage Interest:</strong> Interest paid on qualified home loans</li>
-      </ul>
-
-      <h2>Strategic Tax Planning</h2>
-      <p>Effective tax planning involves more than just claiming deductions at year-end. Consider these strategies:</p>
-      <ul>
-        <li>Timing income and expenses to optimize your tax bracket</li>
-        <li>Maximizing retirement contributions</li>
-        <li>Bunching deductions in alternating years</li>
-        <li>Considering tax-loss harvesting for investments</li>
-      </ul>
-
-      <h2>Documentation and Record Keeping</h2>
-      <p>Proper documentation is crucial for claiming deductions. Keep detailed records including:</p>
-      <ul>
-        <li>Receipts for all deductible expenses</li>
-        <li>Bank statements and canceled checks</li>
-        <li>Mileage logs for business travel</li>
-        <li>Documentation of charitable contributions</li>
-      </ul>
-
-      <p>Remember, tax laws are complex and change frequently. What works for one taxpayer may not be appropriate for another. It's essential to work with a qualified tax professional who can provide personalized advice based on your specific situation.</p>
+      <p>Non basta fare la dichiarazione dei redditi: serve una strategia. Con un’analisi preventiva puoi capire quali agevolazioni ti spettano, scegliere la forma societaria più adatta e programmare entrate e uscite in modo intelligente. Azffidati a un consulente per pianificare in anticipo le scadenze e usare a tuo vantaggio i regimi fiscali previsti dalla legge.</p>
     `,
   },
   "small-business-financial-planning": {
@@ -286,7 +251,7 @@ const blogPosts = {
         <li>Charitable giving strategies using retirement funds</li>
       </ul>
 
-      <p>Retirement planning is complex and highly personal. The strategies that work best for you depend on your age, income, family situation, and retirement goals. Working with experienced financial and tax professionals can help ensure you're on track to achieve the retirement you envision.</p>
+      <p></p>
     `,
   },
   "business-tax-compliance": {
@@ -594,10 +559,10 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <article className="py-12">
           <div className="container max-w-4xl">
             <div className="mb-8">
-              <Link href="/blog">
+              <Link href="/#blog">
                 <Button variant="ghost" className="mb-6 p-0 h-auto">
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Back to Articles
+                  Torna alla Home
                 </Button>
               </Link>
 
@@ -627,18 +592,20 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
             <Card className="mt-12 bg-primary/5 border-primary/20">
               <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-serif font-bold mb-4">Need Professional Guidance?</h3>
+                <h3 className="text-2xl font-serif font-bold mb-4">Hai bisogno di aiuto professionale?</h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  The information in this article is for educational purposes. For personalized advice tailored to your
-                  specific situation, we offer a free initial consultation to discuss your needs.
+                  Le informazioni contenute in questo articolo hanno scopo puramente informativo. Per una consulenza personalizzata e su misura per la tua
+                  situazione specifica, offriamo una consulenza iniziale gratuita per discutere delle tue esigenze.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a href="/website#contact">
                   <Button size="lg" className="px-8">
                     <Mail className="mr-2 h-4 w-4" />
-                    Schedule Free Consultation
+                    Prenota una consulenza gratuita
                   </Button>
+                  </a>
                   <p className="text-sm text-muted-foreground">
-                    Contact us at <strong>amatigattei@riminiservizi.com</strong>
+                    Contattaci a <strong>amatigattei@riminiservizi.com</strong>
                   </p>
                 </div>
               </CardContent>

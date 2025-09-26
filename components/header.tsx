@@ -20,6 +20,7 @@ export function Header() {
             </div>
           <div>
             <span className="text-xl font-serif font-bold">AG.CED srl</span>
+            <br style={{ lineHeight: "0.1", margin: 0, padding: 0 }} />
             <span className="text-sm text-muted-foreground ml-2">Esperti Contabili e Fiscali</span>
           </div>
         </div>
@@ -72,12 +73,11 @@ export function Header() {
               Contatti
             </a>
             <div className="pt-4 space-y-2">
-              <Button variant="ghost" size="sm" className="w-full">
-                Portale Clienti
-              </Button>
+              <a href="#contact" className="flex items-center">
               <Button size="sm" className="w-full">
                 Consulenza Gratuita
               </Button>
+              </a> 
             </div>
           </nav>
         </div>

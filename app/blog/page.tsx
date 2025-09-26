@@ -10,8 +10,8 @@ import Link from "next/link"
 export default function BlogPage() {
   const blogPosts = [
     {
-      slug: "understanding-tax-deductions-2024",
-      title: "Understanding Tax Deductions: A Complete Guide for 2024",
+      slug: "ridurre-il-carico-fiscale-senza-rischi",
+      title: "Come ridurre il carico fiscale senza rischi: la pianificazione strategica che fa la differenza",
       excerpt:
         "Navigate the complex world of tax deductions with our comprehensive guide covering business expenses, personal deductions, and strategic planning for maximum savings.",
       category: "Tax Planning",
@@ -73,7 +73,7 @@ export default function BlogPage() {
 
   const categories = [
     "All",
-    "Tax Planning",
+    "Fiscalità e Adempimenti",
     "Business Finance",
     "Legal & Estate",
     "Financial Planning",

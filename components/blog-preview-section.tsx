@@ -7,13 +7,13 @@ import Link from "next/link"
 export function BlogPreviewSection() {
   const blogPosts = [
     {
-      slug: "understanding-tax-deductions-2024",
-      title: "Comprendere le Detrazioni Fiscali: Guida Completa per il 2024",
+      slug: "ridurre-il-carico-fiscale-senza-rischi",
+      title: "Pianificazione fiscale strategica: metodologia, strumenti e benefici concreti",
       excerpt:
-        "Naviga nel complesso mondo delle detrazioni fiscali con la nostra guida completa che copre spese aziendali, detrazioni personali e pianificazione strategica.",
+        "La pianificazione fiscale strategica consiste nell’insieme delle attività volte a ottimizzare l’impatto delle imposte sul risultato economico e finanziario dell’impresa o del privato, nel pieno rispetto della normativa vigente.",
       category: "Pianificazione Fiscale",
       readTime: "8 min di lettura",
-      publishDate: "15 Marzo 2024",
+      publishDate: "Settembre 2025",
       image: "/website/tax-documents-and-calculator-on-desk.jpg",
     },
     {
@@ -39,7 +39,7 @@ export function BlogPreviewSection() {
   ]
 
   return (
-    <section id="blog" className="py-10 bg-muted/30 rounded-lg my-5" style={{ background: "rgba(6, 44, 77, 1)"}}>
+    <section id="blog" className="py-10 px-10 bg-muted/30 rounded-lg my-5" style={{ background: "rgba(6, 44, 77, 1)"}}>
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4" style={{ background: "rgba(243, 246, 248, 1)", color: "rgba(2, 28, 52, 1)" }}>
@@ -54,7 +54,7 @@ export function BlogPreviewSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 justify-center place-items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-15 justify-center mx-auto max-w-6xl">
           {blogPosts.map((post, index) => (
             <Card
               key={index}
@@ -98,14 +98,14 @@ export function BlogPreviewSection() {
           ))}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Link href="/blog">
             <Button variant="outline" size="lg" className="px-8 bg-transparent" style={{ background: "rgba(243, 246, 248, 1)", color: "rgba(2, 28, 52, 1)" }}>
               <BookOpen className="mr-2 h-4 w-4" />
               Visualizza Tutti gli Articoli
             </Button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   )

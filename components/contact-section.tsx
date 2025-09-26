@@ -77,7 +77,7 @@ export function ContactSection() {
               <CardContent className="p-6">
                 <h4 className="font-semibold mb-2" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza Iniziale Gratuita</h4>
                 <p className="text-sm text-muted-foreground" style={{ color: "rgba(243, 246, 248, 1)" }}>
-                  Offriamo una consulenza gratuita di 30 minuti per discutere le tue esigenze finanziarie e come possiamo aiutarti.
+                  Offriamo una consulenza gratuita di 30 minuti per discutere le tue esigenze e come possiamo aiutarti.
                 </p>
               </CardContent>
             </Card>

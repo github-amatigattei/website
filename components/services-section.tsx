@@ -102,7 +102,7 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="shadow-sm hover:shadow-[0_8px_32px_0_rgba(6,44,77,1)] transition-all hover:-translate-y-2 border-0"
+              className="shadow-sm hover:shadow-[0_8px_32px_0_rgba(6,44,77,1)] transition-all hover:-translate-y-1 border-0"
             >
               <CardHeader>
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
